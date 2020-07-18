@@ -1,0 +1,70 @@
+.NET Core information commands
+-----------------------------
+dotnet --info
+
+.NET Core help commands
+-----------------------
+dotnet -h
+dotnet new -h
+
+dotnet new webapi -n DatingApp.API
+
+-n denotes name
+
+This will create DatingApp project
+
+Open the project in the VS code
+
+code .
+
+dotnet run
+
+dotnet watch run
+
+dotnet tool install --global dotnet-ef
+to install entity framework tools to scaffold database code for querying and retrieving data
+
+
+dotnet tool install --global dotnet-ef --version 3.0.0
+
+dotnet ef -h
+	database    Commands to manage the database.
+  dbcontext   Commands to manage DbContext types.
+  migrations  Commands to manage migrations.
+
+
+
+dotnet ef migrations -h - lists the migrations command add, list, remove and script.
+
+dotnet ef migration add InitialCreate (Contains migration class with Up and Down method)
+
+dotnet ef database update -> to apply the migration
+
+npm install -g @angular/cli
+
+ng new DatingApp-SPA
+
+ng serve
+
+
+Extensions
+
+1. Angular Snippets
+
+2. Angular File
+
+3. Angular Language Extensions
+
+4. Auto Rename Tag
+
+5. Bracket Pair Colorizer 2
+
+6. Debugger for Chrome
+
+7. Material Icon Theme
+
+8. Prettier - Code formatter
+
+9. TSlint
+
+10. angular2 switcher
