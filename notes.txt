@@ -68,3 +68,9 @@ Extensions
 9. TSlint
 
 10. angular2 switcher
+
+
+Guards to protect unauthorized access to the URL's in angular application
+Go to command prompt 
+ng g guard auth --skipTests
+Select CanActivate guard
