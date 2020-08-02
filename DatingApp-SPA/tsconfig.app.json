@@ -3,6 +3,9 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+    "typeRoots": [
+      "src/typings.d.ts"
+    ],
     "types": []
   },
   "files": [
